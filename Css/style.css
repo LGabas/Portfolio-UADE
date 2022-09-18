@@ -143,16 +143,16 @@
     justify-content:space-evenly;
   }
   
-  h4 {
-    margin-top: 200px;
-    margin-left: 100px;
-    margin-right: 750px;
-    font-size: 20px;
-    clear: left;
-    padding-top: 20px;
+  h3 {
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 0px;
+    padding-top: 30px;
+    font-family: "airal";
   }
   
-  h3 {
+  h4 {
     text-align: center;
     color: white;
     font-size: 60px;
@@ -161,6 +161,7 @@
     font-family: "airal";
   }
   
+
   .RedesContainer{
     display: flex;
     height: 20vh;
