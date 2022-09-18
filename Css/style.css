@@ -1,0 +1,218 @@
+ :root{
+    --linkedin: #7eccf9;
+    --github: #700542;
+    --instagram: #e4405f;
+    --whatsapp: rgba(4, 252, 4, 0.959);
+    --mail: red;
+  }
+
+  body{
+    margin: auto;
+  }
+
+  h1 {
+    font-size: 75px;
+    font-family: "Copperplate Gothic Light";
+    color: #0e0d0d;
+    text-align: center;
+    padding: 90px 20px 50px 20px;
+    border-bottom: solid;
+  }
+
+  
+  
+  h2 {
+    color: #151515;
+    font-family: "Actor";
+    padding: 20px;
+    font-size: 45px;
+    text-align: center;
+    margin: 30px;
+  }
+  
+  #background2 {
+    background-image: url("/Resource/developer\ image.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 50px;
+    height: 800px;
+  }
+  
+  img {
+    float: right;
+    width: 350px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    margin: 100px 80px 0px 0px;
+  }
+  
+ 
+  .NavBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+  }
+
+  .NavBar ul li{
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+  }
+
+  .NavBar ul li::before{
+    content: "";
+    height: 3px;
+    width: 0%;
+    background-color: #F3E2A9;
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    transition: 0.4s ease-out;
+  }
+
+  .NavBar ul li:hover::before{
+    width: 100%;
+
+
+  }
+  .NavBar li a:hover{
+    color: #F3E2A9;  
+    text-decoration-line: none;
+    
+  }
+
+  .NavCont{
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    
+  }
+
+  .aboutme {
+    Background-color: #F3E2A9;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    margin: 50px 600px 350px 80px;
+    text-align: center;
+    opacity: .8;
+    color: black;
+    position: absolute;
+    width: 35%;
+  }
+  
+  div ul li {
+    list-style-position: inside;
+    text-align: left;
+  }
+  
+  #background3 {
+    background-image: url("/Resource/turned-gray-laptop-computer.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+  }
+  
+  .portfolio{
+    Background-color: #131211;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    text-align: center;
+    opacity: .8;
+  }
+
+  .imgPortfolio{
+    width: 500px;
+  }
+
+  figure {
+    display: flex;
+    justify-content:space-evenly;
+  }
+  
+  h4 {
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 750px;
+    font-size: 20px;
+    clear: left;
+    padding-top: 20px;
+  }
+  
+  h5 {
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin-top: 0px;
+    padding-top: 150px;
+    font-family: "airal";
+  }
+  
+  .RedesContainer{
+    display: flex;
+    height: 20vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .RedesContainer ul li{
+    display: inline-block;
+    margin: 0 40px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .RedesContainer ul li a{
+    display: block;
+    padding: 0 10px;
+    background-image: linear-gradient(45deg, #554f4c, transparent);
+    line-height: 70px;
+    font-size: 50px;
+    box-shadow: 0 3px 5px 0px  rgba(0,0,0,0.2);
+    transition: .2s;
+    color: black;
+  }
+
+  .RedesContainer ul:hover a {
+    filter: blur(2px);
+
+  }
+
+
+  .RedesContainer ul li a:hover{
+    transform: translateY(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,.4);
+    filter: none;
+  }
+  .RedesContainer ul li .LinkedIn:hover{
+    background: var(--linkedin);
+  }
+
+  .RedesContainer ul li .GitHub:hover{
+    background: var(--github);
+  }
+
+  .RedesContainer ul li .Instagram:hover{
+    background: var(--instagram);
+  }
+
+  .RedesContainer ul li .Whatsapp:hover{
+    background: var(--whatsapp);
+  }
+
+  .RedesContainer ul li .Mail:hover{
+    background: var(--mail);
+  }
