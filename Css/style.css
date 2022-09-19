@@ -31,7 +31,7 @@
   }
   
   #background2 {
-    background-image: url("/Resource/developer\ image.jpg");
+    background-image: url("../Resource/developer\ image.jpg");
     background-attachment: fixed;
     background-size: cover;
     padding: 50px;
@@ -116,7 +116,7 @@
   }
   
   #background3 {
-    background-image: url("/Resource/turned-gray-laptop-computer.jpg");
+    background-image: url("../Resource/turned-gray-laptop-computer.jpg");
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
