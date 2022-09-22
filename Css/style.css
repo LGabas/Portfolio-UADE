@@ -45,7 +45,7 @@
     border-style: solid;
     border-width: 2px;
     border-radius: 10px;
-    margin: 100px 80px 0px 0px;
+    margin: 165px 80px 0px 0px;
   }
   
  
@@ -102,7 +102,7 @@
     border-color: black;
     border-style: solid;
     border-width: 2px;
-    margin: 50px 600px 350px 80px;
+    margin: 80px 600px 350px 80px;
     text-align: center;
     opacity: .8;
     color: black;
@@ -110,9 +110,14 @@
     width: 35%;
   }
   
+  .aboutMeText{
+    font-size: 25px;
+  }
+
   div ul li {
     list-style-position: inside;
     text-align: left;
+    font-size: 25px;
   }
   
   #background3 {
