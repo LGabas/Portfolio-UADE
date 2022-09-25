@@ -1,0 +1,92 @@
+ /* Responsive */
+ 
+ @media screen and (max-width: 480px ){
+    body{
+        width: 100%;
+      }
+    .NavBar{
+      width: 100%;
+    }
+  
+    .NavBar ul{
+      display: flex;
+      padding-right: 30px;
+    }
+  
+    .NavBar ul li a{
+      font-size: 13px;
+    }
+    
+    .NavBar ul li a:hover{
+      color: white;
+    }
+  
+    h1{
+      font-size: 50px!important;
+    }
+  
+    h2{
+      font-size: 25px!important;
+    }
+  
+  
+    #background2{
+      padding: 0px !important;
+      background-size: contain !important;
+    }
+    
+    p{
+      display: none;
+    }
+    .listText{
+      display: block;
+    }
+    
+    .aboutme{
+      margin: 0px 5px !important;
+      width: 50% !important;
+      position: relative !important ;
+      top: 100px;
+    }
+  
+    .aboutMeImg {
+      width: 40%!important;
+      margin: 225px 5px   !important ;
+    }
+  
+    figure{
+      display: block !important;
+    }
+  
+    .imgPortfolio{
+      padding: 15px !important;
+      width: 400px !important;
+    }
+  
+    .RedesContainer ul {
+      display: flex !important;
+      padding: 0px;
+    }
+  
+    .RedesContainer ul li{
+      margin: 0px 15px !important;
+      width: 75px !important;
+    }
+  
+    .RedesContainer ul li a {
+      display: block;
+      padding: 0 10px;
+      background-image: linear-gradient(45deg, #554f4c, transparent);
+      font-size: 30px;
+    }
+  
+    .RedesContainer ul:hover a {
+      filter: none !important;
+    }
+  
+  
+    .RedesContainer ul li a:hover{
+      filter: none !important ;
+      transform: none !important;
+    }
+    }
