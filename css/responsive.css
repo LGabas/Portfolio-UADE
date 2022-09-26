@@ -90,3 +90,67 @@
       transform: none !important;
     }
     }
+
+    @media screen and (max-width: 815px ){
+
+      .NavBar ul{
+        display: flex;
+      }
+
+      .aboutMeImg {
+        width: 40%!important;
+        margin: 225px 5px   !important ;
+      }
+
+      .aboutMeImg {
+        float: right;
+        width: 40%;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        margin: 165px 30px 0px 0px;
+      }
+
+      .aboutme {
+        Background-color: #F3E2A9;
+        border-radius: 10px;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        margin: 0px 0px 0px 0px !important;
+        text-align: center;
+        opacity: .8;
+        color: black;
+        position: absolute;
+        width: 35%;
+      }
+
+      #background2{
+        background-size: contain !important;
+      }
+
+      .imgPortfolio{
+        padding: 10px !important;
+        width: 350px !important;
+      }
+
+      .RedesContainer ul {
+        display: flex !important;
+        padding: 0px;
+      }
+    
+      .RedesContainer ul li{
+        margin: 0px 15px !important;
+        width: 75px !important;
+      }
+    
+      .RedesContainer ul li a {
+        display: block;
+        padding: 0 10px;
+        background-image: linear-gradient(45deg, #554f4c, transparent);
+        font-size: 30px;
+      }
+    
+   }
+    
